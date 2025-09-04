@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="M">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.6975308641975309 0.3024691358024691</probabilities>
+		</cpt>
+		<cpt id="N">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.2530864197530864 0.7469135802469136</probabilities>
+		</cpt>
+		<cpt id="Q">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.6975308641975309 0.3024691358024691</probabilities>
+		</cpt>
+		<cpt id="R">
+			<state id="Excellent" />
+			<state id="Good" />
+			<state id="Poor" />
+			<probabilities>0.5596707818930041 0.2510288065843621 0.1893004115226337</probabilities>
+		</cpt>
+		<cpt id="S">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.5493827160493827 0.4506172839506173</probabilities>
+		</cpt>
+		<cpt id="G">
+			<state id="NO" />
+			<state id="YES" />
+			<parents>M N Q R S</parents>
+			<probabilities>0.9 0.1 0.05 0.9500000000000001 0.5 0.5 0.5 0.5 0.25 0.75 0.25 0.75 0.5 0.5 0.5 0.5 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5 0.04166666666666666 0.9583333333333333 0.0625 0.9375 0.125 0.875 0.125 0.875 0.25 0.75 0.1 0.9 0.1 0.9 0.25 0.75 0.1 0.9 0.5 0.5 0.25 0.75 0.25 0.75 0.25 0.75 0.5 0.5 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.25 0.75 0.25 0.75 0.5 0.5 0.08333333333333333 0.9166666666666666 0.5 0.5 0.1666666666666667 0.8333333333333333 0.25 0.75 0.5 0.5 0.1666666666666667 0.8333333333333333 0.25 0.75 0.1666666666666667 0.8333333333333333 0.1666666666666667 0.8333333333333333 0.1666666666666667 0.8333333333333333 0.25 0.75 0.1666666666666667 0.8333333333333333</probabilities>
+		</cpt>
+		<cpt id="B">
+			<state id="Junior" />
+			<state id="Intermediate" />
+			<state id="Senior" />
+			<probabilities>0.4855967078189301 0.3621399176954732 0.1522633744855967</probabilities>
+		</cpt>
+		<cpt id="C">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.845679012345679 0.154320987654321</probabilities>
+		</cpt>
+		<cpt id="A">
+			<state id="Young_Adult" />
+			<state id="Adult" />
+			<state id="Middle_Adult" />
+			<probabilities>0.2880658436213991 0.4362139917695473 0.2757201646090535</probabilities>
+		</cpt>
+		<cpt id="D">
+			<state id="Excellent" />
+			<state id="Poor" />
+			<probabilities>0.6481481481481481 0.3518518518518519</probabilities>
+		</cpt>
+		<cpt id="E">
+			<state id="Excellent" />
+			<state id="Good" />
+			<state id="Poor" />
+			<probabilities>0.2386831275720164 0.5967078189300411 0.1646090534979424</probabilities>
+		</cpt>
+		<cpt id="F">
+			<state id="NO" />
+			<state id="YES" />
+			<parents>B C A D E</parents>
+			<probabilities>0.1666666666666667 0.8333333333333333 0.07142857142857142 0.9285714285714285 0.1 0.9 0.5 0.5 0.1666666666666667 0.8333333333333333 0.5 0.5 0.25 0.75 0.125 0.875 0.5 0.5 0.25 0.75 0.1666666666666667 0.8333333333333333 0.1666666666666667 0.8333333333333333 0.25 0.75 0.125 0.875 0.5 0.5 0.25 0.75 0.1 0.9 0.5 0.5 0.5 0.5 0.125 0.875 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.25 0.75 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.8333333333333333 0.1666666666666667 0.75 0.25 0.5 0.5 0.5 0.5 0.25 0.75 0.5 0.5 0.9375 0.0625 0.9285714285714285 0.07142857142857142 0.5 0.5 0.25 0.75 0.25 0.75 0.5 0.5 0.5 0.5 0.1666666666666667 0.8333333333333333 0.25 0.75 0.5 0.5 0.25 0.75 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5 0.75 0.25 0.8333333333333333 0.1666666666666667 0.1666666666666667 0.8333333333333333 0.5 0.5 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.1 0.9 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="U">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.2901234567901234 0.7098765432098765</probabilities>
+		</cpt>
+		<cpt id="V">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.4012345679012346 0.5987654320987654</probabilities>
+		</cpt>
+		<cpt id="W">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.6604938271604938 0.3395061728395061</probabilities>
+		</cpt>
+		<cpt id="T">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.611111111111111 0.3888888888888888</probabilities>
+		</cpt>
+		<cpt id="X">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="K">
+			<state id="NO" />
+			<state id="YES" />
+			<parents>U V W T X</parents>
+			<probabilities>0.9545454545454546 0.04545454545454546 0.9375 0.0625 0.9372071226862974 0.06279287731370264 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.875 0.125 0.8333333333333333 0.1666666666666667 0.5 0.5 0.75 0.25 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.875 0.125 0.75 0.25 0.875 0.125 0.75 0.25 0.75 0.25 0.75 0.25 0.75 0.25 0.9 0.1 0.9444444444444444 0.05555555555555555 0.9166666666666666 0.08333333333333333 0.875 0.125 0.9285714285714285 0.07142857142857142 0.9 0.1 0.9 0.1 0.9 0.1 0.05555555555555555 0.9444444444444444</probabilities>
+		</cpt>
+		<cpt id="Y">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.3518518518518519 0.6481481481481481</probabilities>
+		</cpt>
+		<cpt id="Z">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.3765432098765432 0.6234567901234568</probabilities>
+		</cpt>
+		<cpt id="A1">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.6851851851851851 0.3148148148148148</probabilities>
+		</cpt>
+		<cpt id="A2">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.3024691358024691 0.6975308641975309</probabilities>
+		</cpt>
+		<cpt id="A3">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.7098765432098765 0.2901234567901234</probabilities>
+		</cpt>
+		<cpt id="J">
+			<state id="NO" />
+			<state id="YES" />
+			<parents>Y Z A1 A2 A3</parents>
+			<probabilities>0.9166666666666666 0.08333333333333333 0.875 0.125 0.9166666666666666 0.08333333333333333 0.875 0.125 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.875 0.125 0.5 0.5 0.8333333333333333 0.1666666666666667 0.8333333333333333 0.1666666666666667 0.75 0.25 0.8333333333333333 0.1666666666666667 0.8333333333333333 0.1666666666666667 0.5 0.5 0.75 0.25 0.75 0.25 0.9375 0.0625 0.8333333333333333 0.1666666666666667 0.75 0.25 0.5 0.5 0.8333333333333333 0.1666666666666667 0.5 0.5 0.875 0.125 0.5 0.5 0.9705882352941176 0.02941176470588235 0.8333333333333333 0.1666666666666667 0.875 0.125 0.75 0.25 0.9285714285714285 0.07142857142857142 0.1875 0.8125</probabilities>
+		</cpt>
+		<cpt id="A4">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.3765432098765432 0.6234567901234568</probabilities>
+		</cpt>
+		<cpt id="A5">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.3765432098765432 0.6234567901234568</probabilities>
+		</cpt>
+		<cpt id="A7">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.3765432098765432 0.6234567901234568</probabilities>
+		</cpt>
+		<cpt id="A8">
+			<state id="Excellent" />
+			<state id="Good" />
+			<state id="Poor" />
+			<probabilities>0.1893004115226337 0.3744855967078189 0.4362139917695473</probabilities>
+		</cpt>
+		<cpt id="A6">
+			<state id="YES" />
+			<state id="NO" />
+			<probabilities>0.4259259259259259 0.5740740740740741</probabilities>
+		</cpt>
+		<cpt id="H">
+			<state id="NO" />
+			<state id="YES" />
+			<parents>A4 A5 A7 A8 A6</parents>
+			<probabilities>0.93845411 0.06154588999999999 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.1666666666666667 0.8333333333333333 0.1666666666666667 0.8333333333333333 0.1666666666666667 0.8333333333333333 0.5 0.5 0.125 0.875 0.0625 0.9375 0.25 0.75 0.5 0.5 0.5 0.5 0.25 0.75 0.5 0.5 0.25 0.75 0.125 0.875 0.5 0.5 0.25 0.75 0.25 0.75 0.1666666666666667 0.8333333333333333 0.25 0.75 0.1666666666666667 0.8333333333333333 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.1666666666666667 0.8333333333333333 0.5 0.5 0.5 0.5 0.1666666666666667 0.8333333333333333 0.5 0.5 0.25 0.75 0.07142857142857142 0.9285714285714285 0.25 0.75 0.1666666666666667 0.8333333333333333 0.1666666666666667 0.8333333333333333 0.1666666666666667 0.8333333333333333 0.05 0.9500000000000001 0.1 0.9 0.25 0.75 0.5 0.5 0.125 0.875 0.125 0.875 0.05555555555555555 0.9444444444444444 0.25 0.75 0.125 0.875</probabilities>
+		</cpt>
+		<cpt id="L">
+			<state id="NO" />
+			<state id="YES" />
+			<parents>F G H J K</parents>
+			<probabilities>0.9369769100000001 0.06302308999999995 0.18429658 0.81570342 0.18452251 0.81547749 0.17667513 0.82332487 0.18603774 0.8139622600000002 0.1582491581924747 0.8417508418075254 0.158234982 0.841765018 0.12573868 0.8742613199999999 0.06015037593984962 0.9398496240601504 0.06988857272194238 0.9301114272780576 0.06517593602154836 0.9348240639784516 0.04543718969419146 0.9545628103058086 0.02631578947368421 0.9736842105263157 0.02874902829623109 0.971250971703769 0.0297542043984476 0.9702457956015524 0.023223342 0.976776658 0.05276120109879701 0.947238798901203 0.05065673 0.94934327 0.047249084 0.9527509160000001 0.045568807 0.954431193 0.04862579281183932 0.9513742071881607 0.04434250730734587 0.9556574926926541 0.0408225906217892 0.9591774093782108 0.05660377358490565 0.9433962264150944 0.05263157894736842 0.9473684210526316 0.04434250730734587 0.9556574926926541 0.043189687 0.956810313 0.03735078978009785 0.9626492102199021 0.0108695652173913 0.9891304347826086 0.08333333333333333 0.9166666666666666 0.125 0.875 0.01185770750988142 0.9881422924901185</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.0.2304.0 ACADEMIC" name="Network1">
+			<node id="L">
+				<name>L顶板事故发生不存在</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>480 278 582 345</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="F">
+				<name>F人因素不存在</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>241 202 314 257</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A">
+				<name>A年龄</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>93 76 167 129</position>
+				<barchart active="true" width="128" height="86" />
+			</node>
+			<node id="B">
+				<name>B工龄</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>69 188 143 234</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="C">
+				<name>C接受培训</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>242 23 324 77</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="D">
+				<name>D健康状况</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>387 65 467 116</position>
+				<barchart active="true" width="128" height="74" />
+			</node>
+			<node id="M">
+				<name>M支护材料充足</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>28 298 123 365</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="N">
+				<name>N支护材料质量</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>36 406 126 472</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Q">
+				<name>Q巷道断面情况</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>48 523 139 579</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="R">
+				<name>R抬棚架质量</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>183 532 280 594</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="G">
+				<name>G物因素不存在</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>201 348 286 407</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="S">
+				<name>S砌碹保温措施</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>323 452 412 507</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="E">
+				<name>E技能熟练度</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>414 166 502 220</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="K">
+				<name>K安全文化因素不存在</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>634 160 723 215</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="U">
+				<name>U注重预防为主</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>590 42 679 97</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="V">
+				<name>V具备完善的安全管理制度</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>752 14 844 96</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="W">
+				<name>W注重安全教育和培训</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>900 122 994 196</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="T">
+				<name>T强调安全第一</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>893 34 984 95</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="X">
+				<name>X进行定期的安全检查和评估</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>868 183 971 265</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="J">
+				<name>J管理体系因素不存在</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>797 370 885 425</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A1">
+				<name>A1安全生产责任制落实</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>977 332 1073 423</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Z">
+				<name>Z矿业务、安检部门监检到位</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>903 259 1005 339</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Y">
+				<name>Y培训工作到位</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>732 268 823 324</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A2">
+				<name>A2安全技术措施到位</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>962 445 1057 527</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A3">
+				<name>A3设置专业管理人员充足</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>810 503 898 578</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="H">
+				<name>H个体能力不存在</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>498 409 590 469</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A8">
+				<name>A8安全意识如何</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>730 595 827 655</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="A7">
+				<name>A7有专人指挥</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>681 444 767 497</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A6">
+				<name>A6支护及时</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>578 589 661 644</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A5">
+				<name>A5支护全面规范</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>428 607 518 678</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A4">
+				<name>A4有科学的支护设计</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>353 537 437 604</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>
